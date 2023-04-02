@@ -1,0 +1,99 @@
+/* Body styling, same as you left it */
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* contains your picture and your emoji items */
+div.about {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+/* Profile image */
+img.about-image {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    border: 6px solid #444;
+}
+
+/* Removes bullet points from list of emoji items */
+ul { list-style-type: none; }
+
+/* The header above your startups */
+h3 {
+    margin: 10px;
+    font-weight: 400;
+}
+
+/* Startups section */
+div.startups {
+    margin: auto;
+    text-align: center;
+    width: 60%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+/* Divs that contain startups */
+div.startup-item {
+    margin: auto;
+    width: 60%;
+    border-radius: 12px;
+    margin-top: 20px;
+    padding: 10px;
+    background: #cecece;
+    /* copied from w3schools */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+
+    transition-duration: 250ms;
+}
+
+/* Effect on startup div when you hover */
+div.startup-item:hover {
+    filter: brightness(105%);
+    width: 61%;
+}
+
+/* Header for startup div */
+div.startup-item h4 {
+    margin: 20px;
+    font-weight: 500;
+}
+
+/* Paragraph for startup div */ 
+div.startup-item p {
+    font-size: 18px;
+    margin: 10px 30px;
+    text-align: left;
+}
+
+/* Contact div */
+div.contact { margin: 30px; }
+
+/* Table for contact, same as you left it */
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th { font-weight: bold; }
+
+/* Footer that contains copyright */
+footer {
+    text-align: center;
+    margin-top: 60px;
+    padding: 16px;
+}
